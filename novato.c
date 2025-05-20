@@ -12,6 +12,8 @@ int main (){
         b++; //incremento
     }
     
+        printf("\n");
+
     //mover a Torre: 5 casas para a direita
 
     int t = 0; //t = torre
@@ -22,6 +24,8 @@ int main (){
         t++; //incremento
     } while (t < 5); //numero de casas
 
+        printf("\n");
+
     //mover a Rainha: 8 casas para a esquerda
 
     int r = 0; //r = rainha
@@ -31,6 +35,21 @@ int main (){
         printf("Rainha: Esquerda\n", r); //direção do movimento
     }
     
+    printf("\n");
+
+    //mover o cavalo em L
+
+    int movimentacaoCavalo = 1;
+
+    while (movimentacaoCavalo--);
+    {
+        for (movimentacaoCavalo = 1; movimentacaoCavalo <= 2; movimentacaoCavalo++)
+        printf("Cavalo: Cima\n"); //comanda para cima 2x
+        {
+            printf("Cavalo: Direita\n"); //comando para direita 1x
+        }
+        
+    }
     
 
 
